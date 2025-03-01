@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- icon -->
+    <div class="container icon-space">
+      <div class="row py-2">
+        <div class="col-md-9">
+          <i class="fa-solid fa-phone"> </i> +91 90305 05566
+          <span class="p-2"></span>
+          <i class="fa-solid fa-envelope"></i> info@quinntech.in
+        </div>
+        <div class="col-md-2 text-end">
+          <a href="https://www.facebook.com/" class="iconlink p-1"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://x.com/?lang=en-in" class="iconlink p-1"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/" class="iconlink p-1"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.pinterest.com/" class="iconlink p-1"
+            ><i class="fa-brands fa-pinterest"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky bg-light fixed-top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <a class="navbar-brand" href="./index.html"
+              ><img
+                src="./img/logo-white.png"
+                alt=""
+                width="200px"
+                class="imglogo"
+            /></a>
+          </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="col-md-6 collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item p-2">
+                <a
+                  class="nav-link active nav-list"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link nav-list" href="./about.html">About</a>
+              </li>
+              <li class="nav-item dropdown p-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item nav-list"
+                      href="./Software Product Engineering.html"
+                      >Software Product Engineering
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown nav-list p-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Solutions
+                </a>
+                <ul
+                  class="dropdown-menu nav-list"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item nav-list"
+                      href="./Products and Solutions.html"
+                      >Products and Solutions
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link nav-list" href="./careers.html">Careers</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link nav-list" href="./cilents.html">Clients</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link nav-list" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Carousel -->
+    <!-- <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div
+          class="carousel-item active"
+          style="
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0.8)
+              ),
+              url('./img/hero-bg-1.jpg');
+          "
+        >
+          <div class="carousel-caption">
+            <h1>Software Product Engineering</h1>
+            <p>
+              Software Product Engineering involves the end-to-end development
+              of software products, from concept and design to development,
+              testing, and deployment. It focuses on creating scalable,
+              reliable, and user-centric software solutions, integrating best
+              practices in engineering and technology to meet market needs and
+              ensure high performance and quality.
+            </p>
+            <a href="#" class="btn btn-danger">Read More</a>
+          </div>
+        </div>
+        <div
+          class="carousel-item"
+          style="
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0.8)
+              ),
+              url('./img/hero-bg-2.jpg');
+          "
+        >
+          <div class="carousel-caption">
+            <h1>IT Strategy &amp; Consulting</h1>
+            <p>
+              IT Strategy & Consulting focuses on aligning technology with
+              business goals to drive growth and efficiency. It involves
+              assessing current IT infrastructure, recommending improvements,
+              and guiding technology investments to enhance performance,
+              security, and scalability. The aim is to create a strategic
+              roadmap that supports long-term business objectives and adapts to
+              changing technological landscapes.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+        <div
+          class="carousel-item"
+          style="
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0.8)
+              ),
+              url('./img/hero-bg-3.jpg');
+          "
+        >
+          <div class="carousel-caption">
+            <h1>Business Intelligence / Analytics</h1>
+            <p>
+              Most BI initiatives falter because they lack a clear strategy,
+              suffer from poor data quality, or face resistance from users.
+              Without well-defined goals and robust data integration, even the
+              best tools won't yield meaningful insights. Ensuring proper
+              training, executive support, and ongoing evaluation are crucial to
+              harnessing the true power of Business Intelligence and analytics.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> -->
+    <!-- container -->
+    <!-- <div>
+      <div class="container a-con">
+        <div class="row">
+          <div class="col-md-4 bcard">
+            <div class="row">
+              <div class="col-md-2">
+                <img src="./img/sm9.png" alt="" width="45px" class="icon-s" />
+              </div>
+              <div class="col-md-10">
+                <h2>Software Product Engineering</h2>
+                <p>
+                  Quicker time to advertise, shorter item lifecycles, ideal
+                  usefulness, demonstrated aptitude, redid combination
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 bcard">
+            <div class="row">
+              <div class="col-md-2">
+                <img src="./img/sm10.png" alt="" width="45px" class="icon-s" />
+              </div>
+              <div class="col-md-10">
+                <h2>Application Development</h2>
+                <p>
+                  We carry specialized aptitude and cooperate with our customers
+                  to create Custom Software Solutions and contemporary
+                  Applications.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 bcard">
+            <div class="row">
+              <div class="col-md-2">
+                <img src="./img/sm11.png" alt="" width="45px" class="icon-s" />
+              </div>
+              <div class="col-md-10">
+                <h2>Software Testing</h2>
+                <p>
+                  We join forces with you past preparing your items advertise.
+                  By offering centered Software Testing and Quality Assurance
+                  administrations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="container">
+      <div class="row">
+        <!-- Image Column -->
+        <div class="col-md-7">
+          <img src="./img/logo1.jpg" class="img-fluid1" alt="Image" />
+        </div>
+
+        <!-- Background Image with Text and Button -->
+        <div class="col-md-5">
+          <div class="bg-img">
+            <div>
+              <div class="big">
+                <h3 style="color: #ff6b6b" ;>
+                  Welcome To Quinntech Solutions Private Limited
+                </h3>
+                <h1><b>About us</b></h1>
+                <p>
+                  We offer custom Java and Python Development solutions,
+                  creating secure, scalable applications with full-stack
+                  expertise for data, web, and automation needs. Our DevOps
+                  services ensure efficient delivery pipelines, infrastructure
+                  management, and real-time monitoring, while SRE focuses on
+                  system reliability, scalability, and performance.
+                </p>
+                <ul>
+                  <li>Content Management system</li>
+                  <li>E-Commerce Development</li>
+                  <li>Website Application Development</li>
+                  <li>Mobile Application Development</li>
+                  <li>Testing</li>
+                  <li>QA Services</li>
+                </ul>
+
+                <a href="./about.html" class="btn btn-danger">Discover more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6" style="padding: 0px">
+          <h3 class="redp">Our Work Process</h3>
+          <p>
+            The team of professionals in 9I Web Solutions follows definite
+            processes for website creation that involves various modifications
+            and keeping options for software expansion, should the need arise in
+            future. Here is a quick overview of the steps we follow. magna.
+          </p>
+          <img src="./img/service-bg-1.jpg" alt="" width="100%" />
+        </div>
+        <div class="col-lg-6">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 pcard">
+                <div class="bcard p-3">
+                  <div class="round">
+                    <div class="icon">
+                      <img src="./img/sm1.png" alt="" />
+                    </div>
+                  </div>
+                  <a href="Software Product Engineering.html" class="bb">
+                    <div>
+                      <h3>Analysis</h3>
+                      <p>
+                        After we receive details of your requirement, our
+                        professional analysts examine your necessities.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6 pcard">
+                <div class="bcard p-3">
+                  <div class="round">
+                    <div class="icon">
+                      <img src="./img/sm2.png" alt="Analysis Icon" />
+                    </div>
+                  </div>
+                  <a href="Software Product Engineering.html" class="bb">
+                    <div>
+                      <h3>design</h3>
+                      <p>
+                        As discussed with the clients, our designers work on the
+                        website design, color.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6 pcard">
+                <div class="bcard p-3">
+                  <div class="round">
+                    <div class="icon">
+                      <img src="./img/sm3.png" alt="Analysis Icon" />
+                    </div>
+                  </div>
+                  <a href="Software Product Engineering.html" class="bb">
+                    <div>
+                      <h3>coding development</h3>
+                      <p>
+                        Now, it is the turn of our developers and programmers to
+                        continue with the encryption process.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6 pcard">
+                <div class="bcard p-3">
+                  <div class="round">
+                    <div class="icon">
+                      <img src="./img/sm4.png" alt="Analysis Icon" />
+                    </div>
+                  </div>
+                  <a href="Software Product Engineering.html" class="bb">
+                    <div>
+                      <h3>Testing</h3>
+                      <p>
+                        Automated and manual assessment is carried out in this
+                        step for integration, scalability, resolution.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            href="Software Product Engineering.html"
+            class="btn btn-danger"
+            style="margin-left: 10%; margin-top: 5%"
+            >Discover more</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="bg-1 bg-f ptb-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7">
+            <div class="row">
+              <p class="txtcolor">Quinntech Solutions Private Limited</p>
+              <h3>Our Solutions</h3>
+            </div>
+            <div class="row">
+              <div class="col-md-6 pcard">
+                <div class="bcard p-4">
+                  <div class="round1">
+                    <div class="icon">
+                      <img src="./img/sm5.png" alt="" />
+                    </div>
+                  </div>
+                  <a href="Products and Solutions.html" class="bb">
+                    <div>
+                      <h3 class="myp">Business Process Outsourcing</h3>
+                      <p class="myp">
+                        Business process outsourcing (BPO) is the contracting of
+                        a specific business task, such as payroll, to a
+                        third-party service provider..
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-6 pcard">
+                <div class="bcard p-4">
+                  <div class="round1">
+                    <div class="icon">
+                      <img src="./img/sm6.png" alt="" />
+                    </div>
+                  </div>
+                  <a href="Products and Solutions.html" class="bb">
+                    <div>
+                      <h3 class="myp">Products and Solutions</h3>
+                      <p class="myp">
+                        9I Web Solutions is leading in India, 9I Web Solutions
+                        have specialized skills in Software Development,
+                        Customized Software Development
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 pcard">
+                <div class="bcard p-4">
+                  <div class="round1">
+                    <div class="icon">
+                      <img src="./img/sm7.png" alt="" />
+                    </div>
+                  </div>
+                  <a href="Products and Solutions.html" class="bb">
+                    <div>
+                      <h3 class="myp">Business Intelligence</h3>
+                      <p class="myp">
+                        Business Intelligence / Analytics is a powerful tool in
+                        your arsenal - if implemented appropriately.
+                      </p>
+                    </div>
+                  </a>
+                  <br />
+                  <br />
+                </div>
+              </div>
+
+              <div class="col-md-6 pcard">
+                <div class="bcard p-4">
+                  <div class="round1">
+                    <div class="icon">
+                      <img src="./img/sm8.png" alt="" />
+                    </div>
+                  </div>
+                  <a href="Products and Solutions.html" class="bb">
+                    <div>
+                      <h3 class="myp">Database Maintanence</h3>
+                      <p class="myp">
+                        9I Web Solutions offers complete database services to
+                        help you organize and maintenance your data in MS
+                        Access, SQL SERVER
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  href="Products and Solutions.html"
+                  class="btn btn-danger"
+                  style="margin-left: 40%; margin-top: 5%"
+                  >Discover more</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5 imgpadding">
+            <img src="./img/wh-img-3.jpg" alt="img" width=100% height=100%">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-panel">
+              <div class="col-md-3">
+                <a href="#" class="logo"
+                  ><img
+                    class="heading footer-logo"
+                    src="./img/logo-white.png"
+                    alt="logo-img"
+                /></a>
+                <div class="link-items">
+                  <p class="message">
+                    Quinntech Solutions Private Limited Our Application Support
+                    provides 24/7 monitoring, quick bug fixes, and regular
+                    updates. In Cybersecurity, we protect against threats,
+                    conduct vulnerability assessments, and support compliance.
+                    We also provide Database Services for design, migration, and
+                    performance optimization.
+                  </p>
+                </div>
+                <div class="link-items">
+                  <span>Follow us</span>
+                  <ul class="social-icon unlist">
+                    <li class="list">
+                      <a href="https://www.facebook.com/" class="iconlink"
+                        ><i class="fa-brands fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li class="list">
+                      <a href="https://x.com/?lang=en-in" class="iconlink"
+                        ><i class="fa-brands fa-x-twitter"></i
+                      ></a>
+                    </li>
+                    <li class="list">
+                      <a href="https://www.instagram.com/" class="iconlink"
+                        ><i class="fa-brands fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li class="list">
+                      <a href="https://www.pinterest.com/" class="iconlink"
+                        ><i class="fa-brands fa-pinterest"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-2">
+                <h4 class="heading">Quick links</h4>
+                <ul class="footer-links unlist">
+                  <li class="link-items list">
+                    <a href="./index.html" class="iconlink"
+                      ><i class="fa-solid fa-angle-right"></i>Home</a
+                    >
+                  </li>
+                  <li class="link-items list">
+                    <a href="./about.html" class="iconlink"
+                      ><i class="fa-solid fa-angle-right"></i>About</a
+                    >
+                  </li>
+                  <li class="link-items list">
+                    <a href="./careers.html" class="iconlink"
+                      ><i class="fa-solid fa-angle-right"></i>careers</a
+                    >
+                  </li>
+                  <li class="link-items list">
+                    <a href="./cilents.html" class="iconlink"
+                      ><i class="fa-solid fa-angle-right"></i>clients</a
+                    >
+                  </li>
+                  <li class="link-items list">
+                    <a href="./contact.html" class="iconlink"
+                      ><i class="fa-solid fa-angle-right"></i>contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-2">
+                <h4 class="heading">Services</h4>
+                <ul class="footer-links unlist">
+                  <li class="link-items list">
+                    <a
+                      href="./Software Product Engineering.html"
+                      class="iconlink"
+                      ><i class="fa-solid fa-angle-right"></i>software
+                      Engineering</a
+                    >
+                  </li>
+                  <li class="link-items list">
+                    <a href="./Products and Solutions.html" class="iconlink"
+                      ><i class="fa-solid fa-angle-right"></i>Products and
+                      Solutions</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h4 class="heading">Address</h4>
+                <div class="link-items">
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>#3-225 & 226, 4th
+                    Floor, MMS Divya Diamonds Junction, Kavuri HillsPhase 2 Rd,
+                    Hyderabad-500033.
+                  </p>
+                </div>
+                <div class="link-items">
+                  <a href="#" class="iconlink"
+                    ><i class="fa-solid fa-envelope"></i>info@quinntech.in</a
+                  >
+                </div>
+                <div class="link-items">
+                  <a href="#" class="iconlink"
+                    ><i class="fa-solid fa-phone-volume"></i>+91 90305 05566</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-1">
+                <h4>Dev Team</h4>
+                <select class="dropdown-itemlist">
+                  <option value="">Team Members</option>
+                  <option>K Venkat Kiran</option>
+                  <option>M.Venkat Sai</option>
+                  <option>Nitisha Sagar</option>
+                  <option>S.Venu Sainath</option>
+                  <option>P.Deepika</option>
+                  <option>Pavan</option>
+                  <option>Datta</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footrt-bottom"></div>
+    </footer>
+  </body>
+</html>
